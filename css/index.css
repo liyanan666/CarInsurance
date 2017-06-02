@@ -1,0 +1,73 @@
+*{
+	margin: 0;
+	padding: 0;
+}
+body{
+	font-size: 12px;
+	font-family: "微软雅黑";
+}
+.from{
+	width: 80%;
+	margin: 2rem auto 0 auto;
+}
+
+.from .phoneinput{
+	width: 5rem;
+	height: 0.7rem;
+	outline: none;
+}
+.from .ideinput{
+	width: 3.5rem;
+	height: 0.7rem;
+	outline: none;
+}
+.from .font{
+	font-size: 0.5rem;
+	width: 2rem;
+	height: 1rem;
+	line-height: 1rem;
+	display: inline-block;
+}
+.from .prompt{
+	margin: 0.2rem 0 0rem 2rem;
+	color: red;
+	position: absolute;
+	display: none;
+}
+.from .identifying{
+	margin-top: 0.7rem;
+}
+.from .sendmsg{
+	width: 1.42rem;
+	height: 0.77rem;
+	background: #199ed8;
+	color: #fff;
+	text-align: center;
+	line-height: 0.77rem;
+	display: inline-block;
+}
+.from .ischange{
+	margin-top: 0.33rem;
+	color: #169bd5;
+	font-size: 0.4rem;
+}
+.from .info{
+	margin-top: 0.2rem;
+	color: red;
+	display: none;
+}
+.submit{
+	width: 4rem;
+	height: 1rem;
+	line-height: 1rem;
+	border-radius: 4px;
+	color: #fff;
+	text-align: center;
+	font-size: 0.4rem;
+	margin: 5rem auto 0.3rem auto;
+	background: #199ed8;
+}
+.infos{
+	text-align: center;
+	color: #999999;
+}
